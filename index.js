@@ -8,7 +8,7 @@ const TROY_OUNCE_TO_GRAMS = 31.1034768;
 // CONFIGURABLE
 const IMPORT_DUTY = 0.15; // 15%
 const DEALER_PREMIUM_PER_GRAM = 431; // adjust from your market
-const SHOP_MARGIN_PER_GRAM = 0;
+const SHOP_MARGIN_PER_GRAM = 150;
 
 function round2(n) {
   return Math.round(n * 100) / 100;
